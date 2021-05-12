@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: coral;
+}
+
+h1{
+    background-color: slategray;
+    color: white;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.container{
+    width: 1000px;
+    height: 1300px;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.top{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 150px;
+    transition: .5s ease;
+}
+
+.top:hover{
+    /* transform: translate(400px); */
+    /* transform: translateY(200px); */
+    transform: translate(300px, 300px);
+}
+
+.top2{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 150px;
+    transition: .5s ease;
+}
+
+.top2:hover{
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    transform: scale(2);
+    /* transform: scale(0.5); */
+}
+
+.top3{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 150px;
+    transition: .5s ease;
+    border: 2px dashed white;
+}
+
+.top3:hover{
+    /* transform: rotateX(360deg); */
+    /* transform: rotateY(360deg); */
+    transform: rotate(360deg);
+    /* transform-origin: right; */
+}
+
+.top4{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 150px;
+    transition: .5s ease;
+    border: 2px dashed white;
+}
+
+.top4:hover{
+    /* transform: skewX(30deg); */
+    /* transform: skewX(-30deg); */
+    /* transform: skewY(30deg); */
+    transform: skew(30deg);
+}
+
+img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 30px;
+    transition: .5s ease;
+}
+
+#img1:hover{
+    transform: rotate(360deg) scale(2);
+}
+
+#img2:hover{
+    transform: translate(200px,200px) rotate(180deg);
+}
+
+#img3:hover{
+    transform: scale(0.5) skew(30deg);
+}
